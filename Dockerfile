@@ -1,8 +1,8 @@
 FROM python:3
 ENV PYTHONUNBUFFERED 1
-WORKDIR /PNECBS
-ADD . /PNECBS
-COPY ./requirements.txt /PNECBS/requirements.txt
-COPY ./passw.txt /PNECBS/passw.txt
+WORKDIR /MDS
+ADD . /MDS
+COPY ./requirements.txt /MDS/requirements.txt
+COPY ./passw.txt /MDS/passw.txt
 RUN pip3 install -r requirements.txt
-COPY . /PNECBS
+COPY . /MDS
