@@ -8,6 +8,5 @@ matplotlib==3.2.1
 Pillow==7.2.0
 pipenv==2020.8.13
 psycopg2==2.8.5
-scipy==1.4.1
 whitenoise==5.2.0
 wrapt==1.11.2
